@@ -1,0 +1,66 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  padding: 10px;
+  background: 
+  linear-gradient(217deg, rgba(126, 31, 31, 0.993) ,rgba(182, 52, 52, 0)70%),
+  linear-gradient(127deg, rgba(78, 19, 111, 0.993) ,rgba(137, 52, 182, 0)70%),
+  linear-gradient(336deg, rgba(29, 30, 114, 0.993) ,rgba(65, 52, 182, 0)70%);
+}
+
+#testui {
+  background-color: rgba(255, 255, 255, 0.264);
+  margin: 0 30px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.issue {
+  margin: 20px;
+  padding: 5px;
+  width: 60%;
+  border: 2px solid black;
+}
+
+.closed {
+  background-color: lightgrey;
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+.border{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.26);
+}
+
+code{
+  margin-top: 20px;
+}
+
+.codeWrapper{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.26);
+}
+
+input, textarea{
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.263);
+  color: black;
+  padding: 5px;
+  width: 200px;
+}
